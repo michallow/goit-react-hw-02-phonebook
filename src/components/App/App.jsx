@@ -1,10 +1,10 @@
 import { Component } from 'react';
 
-import { ContactForm } from './ContactForm/ContactForm';
-import { ContactList } from './ContactList/ContactList';
-import { Filter } from './Filter/Filter';
+import { ContactForm } from '../../components/ContactForm/ContactForm';
+import { ContactList } from '../../components/ContactList/ContactList';
+import { Filter } from '../../components/Filter/Filter';
 
-import s from '../App.module.css';
+import s from '../../components/App/App.module.css';
 
 export class App extends Component {
   constructor() {
